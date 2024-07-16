@@ -16,11 +16,11 @@ from telebot.types import ReplyKeyboardMarkup, KeyboardButton
 
 loop = asyncio.get_event_loop()
 
-TOKEN = '7421757496:AAFa9hUGEA86BVYASc_Z4N1mHVFxTlu8PoY'
+TOKEN = '7308670008:AAE_XRMyLFDjRlV6G15WwFheNIrg4E75z2g'
 MONGO_URI = 'mongodb+srv://piroop:piroop@piro.hexrg9w.mongodb.net/?retryWrites=true&w=majority&appName=piro&tlsAllowInvalidCertificates=true'
-FORWARD_CHANNEL_ID = -1004206417228
-CHANNEL_ID = -1004206417228
-error_channel_id = -1004206417228
+FORWARD_CHANNEL_ID = -1004267935455
+CHANNEL_ID = -1004267935455
+error_channel_id = -1004267935455
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
@@ -101,7 +101,7 @@ def approve_or_disapprove_user(message):
     cmd_parts = message.text.split()
 
     if not is_admin:
-        bot.send_message(chat_id, "*You are not authorized to use this command*", parse_mode='Markdown')
+        bot.send_message(chat_id, "*ABE BSDK YEAH PAID WALI HAI ACESS NHI MILEGI*", parse_mode='Markdown')
         return
 
     if len(cmd_parts) < 2:
